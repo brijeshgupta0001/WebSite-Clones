@@ -1,0 +1,137 @@
+/*utility */
+/*utility */
+/*utility */
+*{
+    font-family:sans-serif ;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*top nav bar */
+#top-nav-bar{
+   justify-content:space-between;
+   position: fixed;
+   width: 99vw;
+   color: aliceblue;
+   background-color:#212121;
+   height: 10vh;
+
+}
+.menu-icon{
+  width:5vw ;
+  padding: 1rem; 
+}
+.yt-name{
+   color: white;
+   font-size: 1.7rem;
+   font-weight: 500;
+   font-family:'Franklin Gothic Medium';
+   margin: 0.4rem;
+}
+
+input{
+    outline: none;
+    padding-left: 0.5rem;
+    width: 25rem;
+    height: 6vh;
+    background-color: #0f0f0f;
+    border: 1px solid hsl(0,0%,18.82%);
+    color: white;
+    
+}
+input:focus{
+    transition: all 0.5s;
+    border: 1px solid #065fd4;
+}
+.search-icon{
+   width: 4rem;
+   height:6vh;
+   background-color:hsl(0,0%,18.82%);
+   border:1px solid hsl(0,0%,18.82%); 
+}
+.mic{
+    margin: 1rem;
+    background-color:#0f0f0f ;
+    height:6vh;
+    width: 2.7rem;
+    border-radius: 3rem;
+}
+.right i{
+margin: 1rem;
+}
+/*left nav bar*/
+.left-nav-bar{
+    position: fixed;
+    top: 10vh;
+    color: white;
+    height: 90vh;
+    width: 5vw;
+    font-size: 0.8rem;
+    background-color:#212121 ;
+}
+.left-nav-bar i{
+    margin-top:2.5rem ;
+    margin-bottom:0.7rem ;
+}
+.left-nav-bar div{
+   font-size: 0.8rem;
+}
+.menu-item:hover{
+    transition: all 0.5s;
+    background-color: hsl(0,0%,18.82%);
+}
+/*container Styling*/
+#container{
+  background-color: #181818; 
+  padding: 1rem;
+  width: 94vw;
+  position: relative; 
+  z-index: -1;
+  top: 10vh;
+  left: 5vw;
+}
+.box img{
+    width: 20vw;
+    height:38 ;
+}
+.content{
+    color:white ;
+}
+.content-right{
+    width: 15vw;
+    padding:0.2rem 1rem ;
+}
+.content-head{
+   font-size: 1.5rem; 
+}
+.info{
+  color: #717171;  
+}
+.content-right div{
+   margin: 0.2rem; 
+}
+.box{
+    width: 20vw;
+    flex-grow:1 ;
+    height:55vh ;
+    margin:0.5rem;
+    justify-content: inherit;
+    
+}
+.container-box{
+    justify-content:initial;
+    flex-wrap: wrap;
+}
+

@@ -1,0 +1,15 @@
+#top-nav-bar{
+  padding: 0 2rem;
+  background: #000;
+  height: 9vh;
+  width:99vw ;
+  justify-content: space-between ;
+  border-bottom: 1px solid #909090; 
+}
+.left{
+  font-size: 2rem;
+  color: white;
+}
+.left i{
+    color: rgb(238, 23, 23);
+}
